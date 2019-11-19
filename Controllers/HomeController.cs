@@ -25,5 +25,6 @@ namespace Assignment4Active.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        //changes made
     }
 }
